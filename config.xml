@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hekool.jsconsole"
+        versionCode="10" 
+        version   = "0.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>jsconsole</name>
+
+    <description>
+        Application for http://jsconsole.com 
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Luke Hoban
+    </author>
+
+    <gap:splash src="splashscreen.png" gap:platform="winphone" />
+
+    <preference name="webviewbounce" value="false" />
+
+    <icon src="logo.png" gap:platform="winphone" />
+    <icon src="logo.png" gap:platform="winphone" gap:role="background" />
+
+</widget>
